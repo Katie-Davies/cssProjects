@@ -1,0 +1,46 @@
+
+Body {
+    color: white;
+    background-color: lightskyblue;
+    font-family: 'Barriecito', cursive;
+    text-align: center;}
+div {
+    display: inline;
+    margin-right: 50px;
+}
+
+.woody {
+    float:left;
+    width: 200px;
+    border-radius: 25%;
+}
+
+.card 
+{
+    float: left;
+    text-align: justify;
+}
+
+
+.lightning {
+    float: right;
+    width: 300px;
+    border-radius: 25%;
+}
+
+#disney {
+    font-size: 50px;
+    color: purple;
+
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+        display: block;
+    }
+    h1 {
+        font-size: 40px;
+    }
+
+}
