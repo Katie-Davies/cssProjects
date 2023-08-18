@@ -5,8 +5,14 @@ Body {
     font-family: 'Barriecito', cursive;
     text-align: center;}
 div {
-    display: inline;
+    display: inline-block;
+    width: 600px;
     margin-right: 50px;
+}
+.last {
+    
+    text-align: center;
+    margin: 50px;
 }
 
 .woody {
@@ -21,9 +27,8 @@ div {
     text-align: justify;
 }
 
-
 .lightning {
-    float: right;
+   float:right;
     width: 300px;
     border-radius: 25%;
 }
