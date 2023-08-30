@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" >
+    <title>Pratice grid</title>
+</head>
+<style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(9, 50px);
+    grid-template-rows: repeat(9, 50px);
+    background-color: black;
+    gap: 9px;
+    margin: 10px
+    
+}
+.item {
+    background-color: white;
+}
+.block1 {
+    grid-column: span 2;
+}
+.block2 {
+    grid-column: span 3;
+}
+.block3 {
+    background-color: yellow;
+    grid-column: span 2;
+}
+.block4 {
+    background-color: blue;
+    grid-area: 1 / 10 / 3 / 8
+}
+.block5 {
+    grid-row: span 3;
+}
+.block6 {
+    background-color: red;
+    grid-area: 2 / 2/ 6 / 6;
+}
+.block7 {
+    grid-area: 3 / 6 / 6 / -3;
+}
+.block8 {
+    grid-row: span 2;
+}
+.block9 {
+    grid-area: 5 / 1 / 7 / 1
+}
+.block10 {
+    grid-area: 4 / -2 ;
+}
+.blockblue {
+    background-color: blue;
+    grid-area: 6 / 2 / 10 / -5;
+}
+.block11 {
+    grid-area: 7 / 1 / 10 
+}
+.block12 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.block13 {
+    grid-column: span 2;
+}
+.block14 {
+    grid-area: -2 / -1 / -4 / -3;
+    background-color: red;
+}
+.block15 {
+    grid-area: -2 / -3 / -3 / -5;
+}
+.block16 {
+    grid-area: -1 / -1 / -2 / -5;
+}
+
+</style>
+<body>
+<div class="container">
+    <div class="item block1"></div>
+    <div class="item block2"></div>
+    <div class="item block3"></div>
+    <div class="item block4"></div>
+    <div class="item block5"></div>
+    <div class="item block6"></div>
+    <div class="item block3"></div>
+    <div class="block7"></div>
+    <div class="item block8"></div>
+    <div class="item"></div>
+    <div class="item block1"></div>
+    <div class="item block9"></div>
+    <div class="item block10"></div>
+    <div class="item blockblue"></div>
+    <div class="item block11"></div>
+    <div class="item block12"></div>
+    <div class="block13"></div>
+    <div class="item block14"></div>
+    <div class="item block15"></div>
+    <div class="item block16"></div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+</body>
